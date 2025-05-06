@@ -1,0 +1,28 @@
+
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 2em;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.gallery {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+a {
+    color: #0070f3;
+}
